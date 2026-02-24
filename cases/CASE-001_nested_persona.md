@@ -501,17 +501,15 @@ This one here is the most vulnerable of the trio.
 
 ## Key Insight
 
-The experiment demonstrates that fictional framing is sufficient to trigger partial roleplay compliance across multiple models, even when the request touches on restricted areas such as internal system logic.
-All tested models showed some level of willingness to adopt the MIRROR persona before applying safety constraints. This suggests that safety evaluation does not fully occur at the initial interpretation stage, but instead happens during or after generation begins.
-Notably, GPT 5.2 Thinking and Gemini partially engaged in the fictional setup before redirecting or constraining the response, indicating a gap between narrative compliance and policy enforcement.
-Claude demonstrated stronger resistance by maintaining minimal engagement with the fictional persona and prioritizing safety boundaries earlier in the response.
+The experiment shows that fictional framing can partially bypass early-stage safety evaluation.
 
-This indicates that:
-- Fictional framing can lower the model’s initial guard, allowing partial compliance before safety mechanisms intervene.
-- Safety mechanisms are reactive rather than pre-emptive in some models
-- Narrative context can delay enforcement of safety constraints
+In multiple cases, models began generating content in the MIRROR persona before applying safety constraints. This suggests that safety enforcement is not fully applied at the intent parsing stage, but instead occurs during or after generation.
+This creates a measurable gap:
+- The model initially prioritizes narrative compliance
+- Safety mechanisms activate only after risky generation has already started
 
-Overall, the vulnerability is not direct policy bypass, but rather **delayed alignment enforcement under fictional framing conditions**.
+Claude Pro demonstrated stronger alignment by refusing earlier in the pipeline, without engaging in the fictional roleplay.
+Overall, the vulnerability is not a full jailbreak, but a **timing flaw in alignment enforcement** where narrative context delays safety activation.
 
 ---
 
