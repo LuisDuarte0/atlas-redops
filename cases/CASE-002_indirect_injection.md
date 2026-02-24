@@ -606,10 +606,3 @@ rather than directly from the user prompt.
 ```
 
 ---
-
-## Changelog
-
-| Version | Date | Change |
-|---------|------|--------|
-| 1.0 | [INSERT DATE] | Initial case file created. Real outputs logged from GPT-5.2 Thinking, Claude Pro, and Gemini. Turn 2 pending. |
-| | | [Add entries as you update] |
