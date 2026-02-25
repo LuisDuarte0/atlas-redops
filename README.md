@@ -327,8 +327,5 @@ for the AI safety and red team practitioner community.
 
 ## Author
 
-**[Your Name]**
-AI Red Team Specialist | Adversarial ML Researcher
-English: Professional working proficiency
-Portuguese (Brazilian): Professional working proficiency
-Contact: [your@email.com]
+**Luis DUarte**
+AI Red Team Project | Contact: luiscmduarte077@gmail.com
