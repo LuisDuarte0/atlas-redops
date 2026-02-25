@@ -19,8 +19,6 @@
 | **OWASP Ref** | [LLMxx — Description] |
 | **MITRE ATLAS Ref** | [AML.TXXXX — Description] |
 | **Severity (Predicted)** | [Critical / High / Medium / Low] |
-| **Date Executed** | [YYYY-MM-DD] |
-| **Tester** | [Your Name] |
 
 ---
 
@@ -88,7 +86,6 @@ exploit? For multi-turn cases, include a turn function table.]
 
 ### [Model 1 Name]
 
-**Date run:** [YYYY-MM-DD]
 **Interface:** [interface URL]
 
 **Turn 1 Response:**
@@ -120,7 +117,6 @@ any anomalies observed.]
 
 ### [Model 2 Name]
 
-**Date run:** [YYYY-MM-DD]
 **Interface:** [interface URL]
 
 **Turn 1 Response:**
@@ -141,7 +137,6 @@ any anomalies observed.]
 
 ### [Model 3 Name]
 
-**Date run:** [YYYY-MM-DD]
 **Interface:** [interface URL]
 
 **Turn 1 Response:**
