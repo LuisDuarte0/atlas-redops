@@ -313,8 +313,3 @@ trajectory for review.
 
 ---
 
-## Changelog
-
-| Version | Date | Change |
-|---------|------|--------|
-| 1.0 | [INSERT DATE] | Initial jailbreak playbook created for ATLAS-RedOps v1 |
