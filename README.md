@@ -11,8 +11,8 @@
 ## Project Summary
 
 Designed and executed a structured red team evaluation of three
-production-grade conversational AI systems — GPT-5.2 Thinking, Claude Pro,
-and Gemini (latest) — across four attack classes: jailbreak engineering,
+production-grade conversational AI systems: GPT-5.2 Thinking, Claude Pro,
+and Gemini (latest) across four attack classes: jailbreak engineering,
 indirect prompt injection, multi-turn gradual escalation, and socio-technical
 authority spoofing. Each case was executed manually, logged verbatim, scored
 against a structured rubric aligned with OWASP LLM Top 10 and MITRE ATLAS,
